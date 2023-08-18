@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="max-w-screen-2xl m-auto">
+    <header>
+        <h1 class="text-center text-2xl md:text-5xl font-semibold text-red-400 pt-10">Price After Discount</h1>
+    </header>
+    <main>
+       <div class="flex justify-center pt-10">
+        <div class="h-60 w-60 bg-green-300 px-3">
+            <p class="p-3 text-lg font-semibold">price: <span id="price" class="font-semibold">  00</span> tk</p>
+            <p class="p-3 text-lg font-bold -mt-4">Dicount:<span>30</span>%</p>
+            <p class="p-3 text-bold -mt-4 font-semibold">After Dicount:<span id="discount">00</span>tk</p>
+            <input type="text" placeholder="Enter Price" class="rounded px-3 w-full outline-none" id="value">
+            <button class="btn btn-sm mt-3 w-full btn-error text-white hover:bg-purple-500 outline-none" id="btn">submit</button>
+        </div>
+       </div>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="js/discount.js"></script>
+</body>
+</html>
